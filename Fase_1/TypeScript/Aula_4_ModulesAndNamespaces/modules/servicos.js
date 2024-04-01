@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var limpeza_1 = require("./limpeza");
+var reforma_1 = require("./reforma");
+var seguranca_1 = require("./seguranca");
+console.log('\n=== trabalhando com namespaces ===');
+var prestador = 'Escudero';
+limpeza_1.Limpeza.limpar(prestador);
+reforma_1.Reforma.pintar(prestador);
+seguranca_1.Seguranca.proteger(prestador);
