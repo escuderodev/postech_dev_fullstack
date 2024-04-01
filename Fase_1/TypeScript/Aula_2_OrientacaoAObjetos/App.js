@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Pessoa_1 = require("./Pessoa");
+var Cachorro_1 = require("./Cachorro");
+var Gato_1 = require("./Gato");
+var eduardo = new Pessoa_1.default('Eduardo Escudero', 39);
+eduardo.exibirDetalhes();
+var cachorro = new Cachorro_1.default('Bidu');
+console.log(cachorro.getNome());
+console.log(cachorro.emitirSom());
+var gato = new Gato_1.default('Nino');
+console.log(gato.getNome());
+console.log(gato.emitirSom());
