@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Calculadora_1 = require("./models/Calculadora");
+console.log('\n=== trabalhando com a calculadora ===');
+var num1 = 4;
+var num2 = 2;
+var calculadora = new Calculadora_1.default();
+console.log("".concat(num1, " + ").concat(num2, " = ").concat(calculadora.somar(num1, num2)));
+console.log("".concat(num1, " - ").concat(num2, " = ").concat(calculadora.subtrair(num1, num2)));
+console.log("".concat(num1, " x ").concat(num2, " = ").concat(calculadora.multiplicar(num1, num2)));
+console.log("".concat(num1, " / ").concat(num2, " = ").concat(calculadora.dividir(num1, num2)));
+console.log('\n=== trabalhando com namespaces ===');
+var prestador = 'Escudero';
+Limpeza.limpar(prestador);
+Reforma.pintar(prestador);
+Seguranca.proteger(prestador);
