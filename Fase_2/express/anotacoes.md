@@ -7,3 +7,4 @@
 - para rodar o projeto com node + express basta usar o comando: npm start
 - para reiniciar automaticamente o projeto vamos instalar a lib nodemom: npm install -g nodemon
 - no package.json, na tag script, alterar para: "start": "nodemon app.js"
+- lib para segurança "helmet" -> pesquisar
