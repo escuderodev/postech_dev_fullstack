@@ -1,8 +1,20 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 90vw;
 }
 
 a {
   color: #00B7FF;
+}
+
+.table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+th, td {
+  width: 50%;
+  border: 1px solid black;
+  padding: .5rem;
 }
