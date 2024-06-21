@@ -85,4 +85,6 @@ add column user_id int unique,
 add constraint fk_user_id foreign key (user_id) references "user" (id);
 
 ## continar anotações
-- 
+- em src, criar pasta entities
+- em entities, criar as entidades necessárias
+- criar os repositories

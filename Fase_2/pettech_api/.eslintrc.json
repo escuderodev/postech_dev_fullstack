@@ -23,7 +23,8 @@
                 "singleQuote": true,
                 "trailingComa": "all",
                 "arrowParens": "always",
-                "semi": false
+                "semi": false,
+                "camelCase": false
             }
         ]
     },
