@@ -12,3 +12,7 @@
 - em app.ts, imprtar fastify
 - em server.ts, importar o nosso app
 - instalar zod para validar schema => npm i -D zod
+- em src, criar pasta env
+- em  env, criar arquivo index.ts 
+- em index.ts, importar dotenv e configurar nosso dotenv
+- em server.ts, importar nosso env
