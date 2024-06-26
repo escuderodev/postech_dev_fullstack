@@ -9,11 +9,11 @@
 - criar arquivo .npmrc para fixar as versões das libs do projeto => save-exact=true
 - retirar o ^ das libs
 - em src, criar os arquivos app.ts e server.ts
-- em app.ts, imprtar fastify
+- em app.ts, importar fastify
 - em server.ts, importar o nosso app
 - instalar zod para validar schema => npm i -D zod
 - em src, criar pasta env
-- em  env, criar arquivo index.ts 
+- em env, criar arquivo index.ts 
 - em index.ts, importar dotenv e configurar nosso dotenv
 - em server.ts, importar nosso env
 - instalar eslint e libs para controlar a qualidade do código 

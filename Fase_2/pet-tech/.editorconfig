@@ -1,0 +1,13 @@
+#EditorConfig is awesone:
+https://EditorConfig.org
+
+#top-most EditorConfig file
+root = true
+
+[*]
+ident_style = space
+ident_size = 2
+end-of-line = lf
+charset = utf-8
+trim_trailing_whitescape = false
+insert_final_newline = false
