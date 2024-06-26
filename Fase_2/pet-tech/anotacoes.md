@@ -16,3 +16,5 @@
 - em  env, criar arquivo index.ts 
 - em index.ts, importar dotenv e configurar nosso dotenv
 - em server.ts, importar nosso env
+- instalar eslint para controlar a qualidade do código
+- 
